@@ -3,13 +3,13 @@
 	"description": "list of updates for davidcosman.io site, ordered from latest to oldest",
   "updateList": [
     {
-      "title": "August 18th 2017",
-      "count": 4,
+      "title": "August 24th 2017",
+      "count": 5,
       "updates": [
-        "About page is live!",
-        "Changed color scheme",
+        "About, Portfolio, and Contact pages live and under construction",
+        "Changed color scheme to darker colors",
         "Fixed footer where it would cover part of the page on small displays",
-        "Elements on website adjust as website is updated"
+        "Elements on website adjust as browser size changes"
       ]
     },
     {

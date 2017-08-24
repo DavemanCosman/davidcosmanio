@@ -16,6 +16,10 @@ p {
     color: #9a9a9a;
 }
 
+i {
+    color: snow;
+}
+
 footer {
     position: absolute;
     bottom: 0;
