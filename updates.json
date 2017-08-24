@@ -1,0 +1,43 @@
+{
+	"updates_count": 4,
+	"description": "list of updates for davidcosman.io site, ordered from latest to oldest",
+  "updateList": [
+    {
+      "title": "August 18th 2017",
+      "count": 4,
+      "updates": [
+        "About page is live!",
+        "Changed color scheme",
+        "Fixed footer where it would cover part of the page on small displays",
+        "Elements on website adjust as website is updated"
+      ]
+    },
+    {
+      "title": "May 14th 2017",
+      "count": 3,
+      "updates": [
+        "Added updates functionality",
+        "Fixed style sheet and added more color; more fixes in progress",
+        "Added quick contact and portfolio links"
+      ]
+    },
+    {
+      "title": "May 12th 2017",
+      "count": 4,
+      "updates": [
+        "Added profile image",
+        "Added an updates section",
+        "Progress bar on site creation updated",
+        "Formatted template"
+      ]
+    },
+    {
+      "title": "May 3rd 2017",
+      "count": 2,
+      "updates": [
+        "Site is live!",
+        "Set up accessible template"
+      ]
+    }
+  ]
+}

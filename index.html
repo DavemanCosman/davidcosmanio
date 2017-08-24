@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>David Cosman - Computer Science & English Double Major</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="generateUpdates.js"></script>
+</head>
+
+<body onload="generateUpdates()">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<!--For mobile menu-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--a class="navbar-brand" href="#">Logo</a-->
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#index">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<!-- Login to web management is not needed.
+				<ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>-->
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid text-center">
+		<div class="row content">
+			<div class="col-sm-2 sidenav">
+				<img src="images/davidcosman.jpg" alt="David Cosman" id="smallpic" />
+			</div>
+			<div id="mainContent" class="col-sm-6 text-left">
+				<h1>Welcome to David Cosman's website</h1>
+				<p>Site currently under construction. Powered by Amazon Web Services and Bootstrap 3</p>
+				<h3>Progress</h3>
+				<div class="progress">
+					<div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<hr>
+				<h3>Updates</h3>
+				<!--Accordion starts here-->
+				<div class="panel-group" id="accordion">
+				</div>
+				<!--Accordion ends here-->
+				<h3>Quick Contact</h3>
+				<p>Before I can show all my portfolio, I need to complete the rest of the pages.</p>
+				<p>In the meantime, here are some quick links:</p>
+				<a href="mailto:davemancosman@gmail.com">E-mail me</a><br />
+				<a href="https://github.com/DavemanCosman">Github Repository</a><br />
+				<a href="https://ca.linkedin.com/in/david-cosman-54041267">Linked In</a><br />
+				<a href="https://community.articulate.com/users/DavidCosman">eLearning Heroes</a>
+				<p>I'm always updating the content in these links too!</p>
+			</div>
+			<div class="col-sm-4 sidenav">
+				<img src="images/davidcosman.jpg" alt="David Cosman" id="bigpic" />
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<p>© David Cosman, 2017</p>
+		</div>
+	</footer>
+	<script src="updateImageSize.js"></script>
+</body>
+</html>
