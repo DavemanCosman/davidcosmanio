@@ -52,3 +52,4 @@ UpgradeLog*.htm
 *.log
 .builds
 *.pidb
+.vs/davidcosmanio/v15/.suo
